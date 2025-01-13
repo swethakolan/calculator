@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body{
+      background-color: #EFB6C8;
+      text-align: center;
+    }
+    input
+    {
+      background-color: white;
+  border: none;
+  padding:15px 15px 15px 15px;
+  border-radius: 15px;
+  text-decoration: none;
+    }
+    button
+    {
+      border: none;
+      border-radius: 15px;
+      padding: 15px 15px 15px 15px;
+      background-color: #A888B5;
+      color: #441752;
+      margin-top: 15px;
+    }
+  @media (max-width:760px)
+  {
+    h1 {
+    font-size: 15px;
+  }
+
+  .container {
+    padding: 15px;
+  }
+  input
+  {
+    display: inline-block;
+
+  }
+}
+  
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>💖 Love Calculator 💖</h1>
+    <p>Find out the compatibility between two names!</p>
+    <p>Ever wondered how compatible you and your crush or partner are? 🥰 Our Love Calculator is here to give you a fun and random "love score" between any two names!</p>
+    <p>👉 Simply enter your name and your partner's name, hit calculate, and watch the magic happen! ❤️</p>
+    <input type="text" placeholder="your name"></input>
+    <input type="text" placeholder="your partner name"></input>
+    
+    <div><button onclick="loveCalculator()">calculate</button></div>
+
+    <h1 class="change"></h1>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
